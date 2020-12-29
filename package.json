@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
-    "test:staged": "npm test -- --findRelatedTests"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
